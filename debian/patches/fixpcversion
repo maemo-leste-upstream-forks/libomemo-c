@@ -1,0 +1,19 @@
+Description: Fix the Version in the pc.in file
+Author: Stefan Kropp <stefan.kropp@posteo.de>
+Origin: vendor
+Last-Update: 2023-02-18
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: libomemo-c/src/libomemo-c.pc.in
+===================================================================
+--- libomemo-c.orig/src/libomemo-c.pc.in
++++ libomemo-c/src/libomemo-c.pc.in
+@@ -6,7 +6,7 @@ includedir=@INCLUDE_INSTALL_DIR@
+ 
+ Name: @PROJECT_NAME@
+ Description: OMEMO C Library
+-Version: @SIGNAL_PROTOCOL_C_VERSION@
++Version: @OMEMO_C_VERSION@
+ 
+ Requires:
+ Libs: -L${libdir} -L${sharedlibdir} -l@PROJECT_NAME@

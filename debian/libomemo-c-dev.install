@@ -1,0 +1,3 @@
+usr/include/omemo/
+usr/lib/*/libomemo-c.so
+usr/lib/*/pkgconfig/libomemo-c.pc

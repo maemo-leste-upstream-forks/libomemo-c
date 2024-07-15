@@ -1,0 +1,26 @@
+libomemo-c (0.5.0-4) unstable; urgency=medium
+
+  * Add Stefan Kropp to Uploaders
+  [Stefan Kropp]
+  * Patch to fix Version in libomemo-c.pc.in (Closes: #1031427)
+
+ -- Martin <debacle@debian.org>  Sun, 19 Feb 2023 01:31:53 +0000
+
+libomemo-c (0.5.0-3) unstable; urgency=medium
+
+  [Stefan Kropp]
+  * Fixed d/watch file
+
+ -- Martin <debacle@debian.org>  Thu, 16 Feb 2023 13:18:29 +0000
+
+libomemo-c (0.5.0-2) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- Martin <debacle@debian.org>  Sun, 22 Jan 2023 10:38:22 +0000
+
+libomemo-c (0.5.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1028569)
+
+ -- Martin <debacle@debian.org>  Fri, 13 Jan 2023 00:03:53 +0000
